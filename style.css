@@ -1,0 +1,337 @@
+#logo {
+	height: 3.5em;
+}
+
+#createButton {
+	width: 80%;
+	font-size: 1.7em;
+	height: 3em;
+	background-color: #FF7000;
+	color: white;
+}
+
+#searchButton {
+	width: 80%;
+	font-size: 1.7em;
+	height: 3em;
+	color: #FF7000;
+}
+
+.preview {
+	height: 250px;
+	border-style: solid;
+}
+
+.verticalPadding {
+	height: 40px;
+}
+
+.thumbnail {
+	height: 240px;
+	width: 100%;
+}
+
+#constructionHeader {
+	font-size: 72px;
+}
+
+.constructionParagraph {
+	font-size: 20px;
+}
+
+#construction {
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+.protestCreateBox {
+	position: absolute;
+	border: 1px solid #999;
+	background-color: #ff7000;
+	width: 30em;
+	height: 40em;
+	left: 34%;
+
+}
+
+.eventPreview {
+	position: absolute;
+	border: 1px solid #999;
+	background-color: #ff7000;
+	width: 30em;
+	height: 28em;
+	top: 30%;
+	left: 34%;
+}
+
+#pc-h1 {
+	position: absolute;
+	left: 42%;
+	top: 10%;
+	font-size: 50px;
+}
+
+#pc-h2 {
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	font-size: 30px;
+}
+
+#shareableLink {
+	position: absolute;
+	left: 40%;
+	top: 100%;
+}
+
+#viewEvent {
+	margin-left: 260px;
+}
+
+#buttons {
+	position: absolute;
+	left: 32%;
+	top: 110%;
+	width: 500px;
+	height: 50px;
+}
+
+#buttons button {
+	background-color: #ff7000;
+	width: 100px;
+	height: 70px;
+	border-radius: 15px;
+	outline: none;
+	border: 1px solid #999;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.eventPreview h1 {
+	font-style: bold;
+	font-size: 25px;
+}
+
+.eventPreview p {
+	font-style: bold;
+	font-size: 20px;
+}
+
+#categoryButton{
+    width: 8em;
+    height: 8em;
+    border-color: black;
+    background-color: #FF7000;
+    text-align: center;
+    font-size:2.5em;
+    padding-bottom: 250px;
+    color: white;
+    box-shadow: inset white 3px 3px 15px, 2px 2px 5px black
+}
+
+
+#categoryButton:hover{
+    background-color: #EE6700;
+    box-shadow: inset 3px 3px 15px black;
+    color:rgb(225,225,225)
+}
+
+.categoryPicture{
+    width:7em;
+    height:6em;
+    margin:auto;
+}
+
+.categoryPictureNarrow{
+    width:5em;
+    height:6em;
+    margin:auto;
+}
+
+#categoryHeader{
+    font-size: 60px
+}
+
+#subcategoryButton{
+    height: 3em;
+    width: 15em;
+    color: #FF7000;
+    background-color: rgb(245,245,245);
+    font-size:225%;
+}
+
+ #subcategoryButton:hover{
+    background-color:rgb(225,225,225);
+}
+
+
+.header {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.dropdown-toggle {
+	margin-right: 10px;
+}
+
+/*Following part is written by Yimin*/
+
+.account{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#myaccount{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#accountheader{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.my-account{
+    width: 750px;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+    background-color: #FF7000;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+#user-profile{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 175px;
+    top: 0px;
+}
+
+.account-title{
+    font-size: 23px;
+    color: #FFFFCC;
+}
+
+.account-text{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+
+#account-edit{
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+}
+
+#edit-button{
+    background-color: white;
+    border-radius: 5px;
+}
+
+#edit-button:hover{
+    background-color: #CCCCCC;
+}
+
+#myprotest{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#protests{
+    margin-top: 10px;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.my-protests{
+    width: 750px;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    background-color: #FF7000;
+    font-size: 20px;
+}
+
+.vertical-space{
+    height: 30px;
+}
+
+.p-header{
+    font-family: serif;
+    color: #FFFFCC;
+    text-shadow: 1px 1px 1px white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.share{
+    color: white;
+}
+
+.link{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.protest-header:hover{
+    text-decoration: none;
+}
+
+#createdprotest{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#protest{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#protestheader{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+#protest-content{
+    width: 750px;
+    border: 3px #CCCCCC solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.p-title{
+    font-family: serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#description{
+    background-color: #FF7000;
+    border-radius: 10px;
+    padding:5px 10px 5px 10px;
+}
+
+.protest-title{
+    font-size: 23px;
+    color: #FFFFCC;
+}
+
+.protest-text{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
